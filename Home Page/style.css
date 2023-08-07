@@ -1,0 +1,94 @@
+.first {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+
+.first:hover {
+    color:aquamarine;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:blue;
+}
+
+#blank {
+    display: flex;
+    padding-right: 150px;
+}
+
+#main_page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#plsmargin {
+    padding-right: 170px;
+    max-width: 367px;
+    max-height: 290px;
+    overflow-wrap:break-word;
+    font-size: 20px;
+}
+
+#School {
+    display: flex;
+    justify-content: center;
+}
+
+#dragon {
+    display: flex;
+    justify-content: center;
+}
+
+#text1 {
+    text-align: center;
+}
+
+#YHS {
+    display: flex;
+    justify-content: center;
+}
+
+#text2 {
+    text-align: center;
+}
+
+
+
+#column {
+    flex-direction: column;
+    height: 50px;
+}
+
+#ul {
+    max-width: 500px;
+}
+
+#misc {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 220px;
+}
+
+#fdiv {
+    max-width: 500px;
+}
+
+#size {
+    font-size: 22px;
+}
+
+#future {
+    display: flex;
+    justify-content: center;
+}
+
+#unordered {
+    font-size: 22px;
+}
